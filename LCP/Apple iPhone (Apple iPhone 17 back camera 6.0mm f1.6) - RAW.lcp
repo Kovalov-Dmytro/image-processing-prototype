@@ -1,0 +1,46 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+    xmlns:stCamera="http://ns.adobe.com/photoshop/1.0/camera-profile">
+   <photoshop:CameraProfiles>
+    <rdf:Seq>
+     <rdf:li>
+      <rdf:Description
+       stCamera:Author="Adobe (www.adobe.com)"
+       stCamera:Make="Apple"
+       stCamera:Model="iPhone"
+       stCamera:CameraRawProfile="True"
+       stCamera:Lens="iPhone 17 back camera 5.96mm f/1.6"
+       stCamera:CameraPrettyName="iPhone"
+       stCamera:LensPrettyName="Apple iPhone 17 back camera 6.0mm f/1.6"
+       stCamera:ProfileName="Adobe (Apple iPhone 17 back camera 6.0mm f/1.6)"
+       stCamera:SensorFormatFactor="6.306306"
+       stCamera:ImageWidth="4032"
+       stCamera:ImageLength="3024"
+       stCamera:FocalLength="5.96"
+       stCamera:FocusDistance="0.93109"
+       stCamera:ApertureValue="1.356144">
+      <stCamera:AlternateLensNames>
+       <rdf:Seq>
+        <rdf:li>iPhone 17 back dual wide camera 5.96mm f/1.6</rdf:li>
+       </rdf:Seq>
+      </stCamera:AlternateLensNames>
+      <stCamera:PerspectiveModel
+       stCamera:Version="2"
+       stCamera:FocalLengthX="0.738711"
+       stCamera:FocalLengthY="0.738711"
+       stCamera:ImageXCenter="0.49973"
+       stCamera:ImageYCenter="0.503488"
+       stCamera:ResidualMeanError="0.000623"
+       stCamera:ResidualStandardDeviation="0.000897"
+       stCamera:RadialDistortParam1="0.073879"
+       stCamera:RadialDistortParam2="-0.150975"
+       stCamera:RadialDistortParam3="0.108666"/>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Seq>
+   </photoshop:CameraProfiles>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

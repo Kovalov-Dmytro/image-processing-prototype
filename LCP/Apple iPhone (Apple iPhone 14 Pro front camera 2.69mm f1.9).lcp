@@ -1,0 +1,41 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+    xmlns:stCamera="http://ns.adobe.com/photoshop/1.0/camera-profile">
+   <photoshop:CameraProfiles>
+    <rdf:Seq>
+     <rdf:li>
+      <rdf:Description
+       stCamera:Author="Adobe (www.adobe.com)"
+       stCamera:Make="Apple"
+       stCamera:Model="iPhone"
+       stCamera:CameraRawProfile="False"
+       stCamera:Lens="iPhone 14 Pro front camera 2.69mm f/1.9"
+       stCamera:CameraPrettyName="iPhone"
+       stCamera:LensPrettyName="Apple iPhone 14 Pro front camera 2.69mm f/1.9"
+       stCamera:ProfileName="Adobe (Apple iPhone 14 Pro front camera 2.69mm f/1.9)"
+       stCamera:SensorFormatFactor="8.65"
+       stCamera:ImageWidth="4032"
+       stCamera:ImageLength="3024"
+       stCamera:FocalLength="2.69"
+       stCamera:FocusDistance="0.890373"
+       stCamera:ApertureValue="1.851999">
+      <stCamera:PerspectiveModel
+       stCamera:Version="2"
+       stCamera:FocalLengthX="0.663202"
+       stCamera:FocalLengthY="0.663202"
+       stCamera:ImageXCenter="0.495794"
+       stCamera:ImageYCenter="0.495623"
+       stCamera:ResidualMeanError="0.001134"
+       stCamera:ResidualStandardDeviation="0.002723"
+       stCamera:RadialDistortParam1="0.141889"
+       stCamera:RadialDistortParam2="-0.288979"
+       stCamera:RadialDistortParam3="0.167463"/>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Seq>
+   </photoshop:CameraProfiles>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

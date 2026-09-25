@@ -1,0 +1,46 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+    xmlns:stCamera="http://ns.adobe.com/photoshop/1.0/camera-profile">
+   <photoshop:CameraProfiles>
+    <rdf:Seq>
+     <rdf:li>
+      <rdf:Description
+       stCamera:Author="Adobe (www.adobe.com)"
+       stCamera:Make="Apple"
+       stCamera:Model="iPhone"
+       stCamera:CameraRawProfile="True"
+       stCamera:Lens="iPhone 15 Plus front camera 2.69mm f/1.9"
+       stCamera:CameraPrettyName="iPhone"
+       stCamera:LensPrettyName="Apple iPhone 15 Plus front camera 2.69mm f/1.9"
+       stCamera:ProfileName="Adobe (Apple iPhone 15 Plus front camera 2.69mm f/1.9)"
+       stCamera:SensorFormatFactor="3.498542"
+       stCamera:ImageWidth="4032"
+       stCamera:ImageLength="3024"
+       stCamera:FocalLength="2.69"
+       stCamera:FocusDistance="1.059892"
+       stCamera:ApertureValue="1.851999">
+      <stCamera:AlternateLensNames>
+       <rdf:Seq>
+        <rdf:li>iPhone 15 Plus front TrueDepth camera 2.69mm f/1.9</rdf:li>
+       </rdf:Seq>
+      </stCamera:AlternateLensNames>
+      <stCamera:PerspectiveModel
+       stCamera:Version="2"
+       stCamera:FocalLengthX="0.663987"
+       stCamera:FocalLengthY="0.663987"
+       stCamera:ImageXCenter="0.50394"
+       stCamera:ImageYCenter="0.50106"
+       stCamera:ResidualMeanError="0.001269"
+       stCamera:ResidualStandardDeviation="0.003118"
+       stCamera:RadialDistortParam1="0.144988"
+       stCamera:RadialDistortParam2="-0.303731"
+       stCamera:RadialDistortParam3="0.179527"/>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Seq>
+   </photoshop:CameraProfiles>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

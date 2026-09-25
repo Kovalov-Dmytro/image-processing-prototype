@@ -1,0 +1,47 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+    xmlns:stCamera="http://ns.adobe.com/photoshop/1.0/camera-profile">
+   <photoshop:CameraProfiles>
+    <rdf:Seq>
+     <rdf:li>
+      <rdf:Description
+       stCamera:Author="Adobe (www.adobe.com)"
+       stCamera:Make="Apple"
+       stCamera:Model="iPhone"
+       stCamera:CameraRawProfile="True"
+       stCamera:Lens="iPhone 15 Pro back camera 6.86mm f/1.78"
+       stCamera:CameraPrettyName="iPhone"
+       stCamera:LensPrettyName="Apple iPhone 15 Pro back camera 6.86mm f/1.78"
+       stCamera:ProfileName="Adobe (Apple iPhone 15 Pro back camera 6.86mm f/1.78)"
+       stCamera:SensorFormatFactor="3.498542"
+       stCamera:ImageWidth="4032"
+       stCamera:ImageLength="3024"
+       stCamera:FocalLength="6.86"
+       stCamera:FocusDistance="1.081314"
+       stCamera:ApertureValue="1.695994">
+      <stCamera:AlternateLensNames>
+       <rdf:Seq>
+        <rdf:li>iPhone 15 Pro back triple camera 6.86mm f/1.78</rdf:li>
+        <rdf:li>iPhone 15 Pro back triple camera 6.765mm f/1.78</rdf:li>
+       </rdf:Seq>
+      </stCamera:AlternateLensNames>
+      <stCamera:PerspectiveModel
+       stCamera:Version="2"
+       stCamera:FocalLengthX="0.684875"
+       stCamera:FocalLengthY="0.684875"
+       stCamera:ImageXCenter="0.501602"
+       stCamera:ImageYCenter="0.511531"
+       stCamera:ResidualMeanError="0.002159"
+       stCamera:ResidualStandardDeviation="0.005128"
+       stCamera:RadialDistortParam1="0.152011"
+       stCamera:RadialDistortParam2="-0.408677"
+       stCamera:RadialDistortParam3="0.312033"/>
+      </rdf:Description>
+     </rdf:li>
+    </rdf:Seq>
+   </photoshop:CameraProfiles>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
