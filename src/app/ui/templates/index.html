@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image processing prototype</title>
+  <link rel="stylesheet" href="/static/style.css?v={{ static_version }}">
+</head>
+<body>
+  <aside class="panel" id="panel">
+    <div class="panel-head">
+      <h1 data-i18n="title">Image processing</h1>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button type="button" class="lang" data-lang="en">EN</button>
+        <button type="button" class="lang" data-lang="ru">RU</button>
+      </div>
+    </div>
+
+    <section class="block">
+      <label class="label" for="mode" data-i18n="mode">Processing mode</label>
+      <select id="mode"></select>
+      <p class="hint" id="mode-description"></p>
+    </section>
+
+    <section class="block">
+      <label class="label" data-i18n="image">Image</label>
+      <div class="dropzone" id="dropzone">
+        <input type="file" id="file" accept="image/*,.jpg,.jpeg,.png,.tif,.tiff,.dng,.JPG,.JPEG,.PNG,.TIF,.TIFF,.DNG">
+        <div class="dropzone-text">
+          <strong data-i18n="choose_file">Choose a file</strong> <span data-i18n="or_drop">or drop it here</span><br>
+          <span class="hint">JPEG, PNG, TIFF, DNG</span>
+        </div>
+      </div>
+      <div class="upload-info" id="upload-info" hidden></div>
+    </section>
+
+    <section class="block" id="params-block" hidden>
+      <div class="label" data-i18n="settings">Settings</div>
+      <div id="params"></div>
+    </section>
+
+    <section class="run-bar" id="run-bar">
+      <button class="primary" id="run" disabled data-i18n="run">Process</button>
+      <div class="status" id="status" hidden></div>
+    </section>
+
+    <section class="block" id="result-block" hidden>
+      <div class="label" data-i18n="result">Result</div>
+      <ul class="notes" id="notes"></ul>
+      <div class="report" id="report" hidden></div>
+      <div class="actions" id="actions">
+        <a class="button" id="download" download data-i18n="download_result">Download result</a>
+        <a class="button secondary" id="download-original" download data-i18n="download_original">Download original</a>
+      </div>
+      <details class="log">
+        <summary data-i18n="log">Processing log</summary>
+        <pre id="log"></pre>
+      </details>
+    </section>
+
+    <footer class="footer">
+      <span id="health"></span>
+    </footer>
+  </aside>
+
+  <main class="viewer" id="viewer">
+    <div class="toolbar" id="toolbar" hidden>
+      <button id="toggle" class="toggle" data-i18n-title="hold_space">Hide processed</button>
+      <button id="fit" class="secondary" data-i18n="fit">Fit</button>
+      <button id="zoom-100" class="secondary">100%</button>
+      <span class="zoom-level" id="zoom-level"></span>
+      <span class="layer-label" id="layer-label"></span>
+    </div>
+    <div class="viewport" id="viewport">
+      <div class="stage" id="stage">
+        <img id="img-original" alt="" draggable="false">
+        <img id="img-processed" alt="" draggable="false">
+      </div>
+      <div class="placeholder" id="placeholder">
+        <span data-i18n="placeholder">Upload an image, adjust the settings and press "Process".</span><br>
+        <span class="hint" data-i18n="placeholder_hint">Mouse wheel zooms, drag pans, hold Space to peek at the original.</span>
+      </div>
+    </div>
+  </main>
+
+  <script src="/static/app.js?v={{ static_version }}"></script>
+</body>
+</html>

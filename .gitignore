@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# App runtime data (uploads, results)
+.data/
+data/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Local dev launcher for the Claude desktop app
+.claude/launch.json

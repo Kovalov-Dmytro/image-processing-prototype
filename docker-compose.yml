@@ -1,0 +1,22 @@
+services:
+  app:
+    build: .
+    image: image-processing-prototype
+    ports:
+      - "8000:8000"
+    environment:
+      LCP_DIR: /app/LCP
+      DATA_DIR: /data
+      RESULT_TTL: "3600"
+      MAX_UPLOAD_MB: "200"
+      # The mounted source shadows the copy installed in the image, so edits apply live.
+      PYTHONPATH: /app/src
+    volumes:
+      - ./src:/app/src:ro
+      - ./LCP:/app/LCP:ro
+      - app-data:/data
+    command: >
+      uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload --reload-dir /app/src
+
+volumes:
+  app-data:
